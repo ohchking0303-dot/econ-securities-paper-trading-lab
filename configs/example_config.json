@@ -1,0 +1,18 @@
+{
+  "project": "econ-securities-paper-trading-lab",
+  "mode": "paper_only",
+  "asset": "BTCUSDT",
+  "initial_capital": 1000000,
+  "transaction_cost_rate": 0.0006,
+  "max_position_size": 0.1,
+  "risk_metrics": [
+    "return",
+    "mdd",
+    "sharpe",
+    "profit_factor",
+    "volatility",
+    "cost_drag"
+  ],
+  "live_trading": false,
+  "private_api_required": false
+}
